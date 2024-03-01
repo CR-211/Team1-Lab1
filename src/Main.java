@@ -50,7 +50,7 @@ public class Main extends JFrame {
             }
         });
 
-        panel1.add(new JLabel("Timer la un anumit timp "));
+        panel1.add(new JLabel("Timer la un anumit timp ")); // panel
         panel1.add(textField1);
         panel1.add(startButton1);
         panel1.add(label1);
