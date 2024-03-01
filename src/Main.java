@@ -161,10 +161,9 @@ public class Main extends JFrame {
                         }, 1000); // Ștergem imaginea după 1 sec
 
                         elapsedTime = 1; // Resetează numărătoarea
-                        // Nu este necesar să opriți timer2 aici, deoarece se oprește automat când atinge totalTime
                     }
                 }
-            }, 0, 1000); // Rulează task-ul la fiecare secundă
+            }, 0, 1000);
         } catch (NumberFormatException e) {
             JOptionPane.showMessageDialog(this, "Introduceți un număr valid pentru timp.", "Eroare", JOptionPane.ERROR_MESSAGE);
         }
